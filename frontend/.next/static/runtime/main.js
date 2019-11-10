@@ -4818,7 +4818,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/mnt/c/Users/Krissy/Desktop/UMW_Classes/FALL_2019/CPSC350/complete_web_application_ex/complete-app/frontend/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/mnt/c/Users/Krissy/Desktop/UMW_Classes/FALL_2019/CPSC350/complete-web-app/frontend/.next");
       return error;
     }
   };
